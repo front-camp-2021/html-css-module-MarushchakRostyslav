@@ -168,7 +168,7 @@ ul.breadcrumb-road li {
 }
 ul.breadcrumb-road li + li:before {
   padding: 0 12px 0 12px;
-  content: url(./img/breadcrumbs-item-2.png);
+  content: url(../../../module-1/img/breadcrumbs-item-2.png);
 }
 ul.breadcrumb-road li a {
   color: #7e72f2;
