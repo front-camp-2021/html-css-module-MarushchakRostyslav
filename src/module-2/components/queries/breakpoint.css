@@ -1,0 +1,85 @@
+@media screen and (max-width: 1200px) {
+  /* 1200 і менше */
+  .sidebar {
+    margin: 15px 15px 18px 15px;
+  }
+  .sidebar,
+  .filter-clearbtn {
+    max-width: 341px;
+  }
+  .filter-container {
+    padding: 20px 23px;
+  }
+  .btn-name {
+    margin: 0 91px;
+  }
+  .content-result,
+  .search-line {
+    margin: 0 15px 0 0;
+  }
+  .sidebar-close__title,
+  .content-result__item {
+    font-size: 16px;
+  }
+  .search-line form input {
+    font-size: 16px;
+    padding: 17px 0 17px 17px;
+  }
+  .search-line form img {
+    right: 17px;
+  }
+  .catalog-grid__item {
+    margin: 0px 14px 18px 0;
+  }
+  .catalog-grid__photo {
+    height: 240px;
+    padding-top: 20px;
+  }
+  .pagination {
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  /* 720 і менше */
+  .catalog-grid__item {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 760px) {
+  /* 720 і менше */
+  .sidebar {
+    display: none;
+    position: absolute;
+    max-width: 100%;
+    width: 100%;
+    z-index: 15;
+  }
+  .sidebar.active {
+    display: block;
+    margin: 0;
+    background: #fff;
+  }
+  .sidebar-close {
+    margin: 0 15px 13px 15px;
+    /* background: #fff; */
+  }
+  .filter {
+    padding: 0 15px;
+  }
+  .filter-clearbtn{
+      width: 100%;
+      max-width: 100%;
+  }
+
+  .catalog-grid__item,
+  .search-line,
+  .content-result {
+    margin: 0 14px 18px;
+  }
+}
+@media screen and (max-width: 515px) {
+  /* 515 і менше */
+}
+@media screen and (max-width: 320px) {
+  /* 320 і менше */
+}

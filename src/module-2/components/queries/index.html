@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./card.css">
+    <link rel="stylesheet" href="./breakpoint.css">
+    <title>Online Store with QUERIES by MR</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <a class="logo" href="#">
+            <div class="logo-img">
+                <img src="../../../module-1/img/logo.png" alt="">
+            </div>
+        </a>
+        <p class="header-text">Online Store</p>
+    </header>
+    <div class="breadcrumbs">
+        <ul class="breadcrumb-road">
+            <li><a href="#"><img src="../../../module-1/img/breadcrumbs-item.png" alt=""></a></li>
+            <li><a href="#">eCommerce</a></li>
+            <li>Electronics</li>
+          </ul>
+    </div>
+    <div class="layout_with_sidebar">
+        <aside class="sidebar active">
+            <div class="sidebar-close">
+                <span class="sidebar-close__title">
+                    Filters
+                </span>
+                <div class="sidebar-close__btn">
+                    <img src="../../../module-1/img/breadcrumbs-item-2.png" alt="">
+                </div>
+            </div>
+            <div class="filter">
+                <div class="sidebar-container">
+                    <div class="filter-container">
+                        <div class="filter-item">
+                            <div class="filter-item__title">
+                                <span class="filter-item__title-name">Multi Range</span>
+                            </div>
+                            <ul class="filter-item__categories">
+                                <li class="filter-value__radio">
+                                    <input id="multichoise-1" name="multirange" type="radio">
+                                    <label for="multichoise-1" class="type-radio">$10</label>
+                                </li>
+                                <li class="filter-value__radio">
+                                    <input id="multichoise-2" name="multirange" type="radio">
+                                    <label for="multichoise-2" class="type-radio">$10-$100</label>
+                                </li>
+                                <li class="filter-value__radio">
+                                    <input id="multichoise-3" name="multirange" type="radio">
+                                    <label for="multichoise-3" class="type-radio">$100-$500</label>
+                                </li>
+                                <li class="filter-value__radio">
+                                    <input id="multichoise-4" name="multirange" type="radio">
+                                    <label for="multichoise-4" class="type-radio">$500</label>
+                                </li>
+                                <li class="filter-value__radio">
+                                    <input id="multichoise-5" name="multirange" type="radio">
+                                    <label for="multichoise-5" class="type-radio">All</label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="botom-line"></div>
+                        <div class="filter-item">
+                            <div class="filter-item__title">
+                                <span class="filter-item__title-name">Category</span>
+                            </div>
+                            <ul class="filter-item__categories">
+                                <li class="filter-value">
+                                    <div class="filter-value__item">
+                                        <input type="checkbox">
+                                        <label class="type-checkbox" for="">Cell Phones</label>
+                                    </div>
+                                    <div class="filter-value__item">
+                                        <label class="type-checkbox" for="">1920</label>
+                                    </div>
+                                </li>
+                                <li class="filter-value">
+                                    <div class="filter-value__item">
+                                        <input type="checkbox">
+                                        <label class="type-checkbox" for="">Computers & Tablets</label>
+                                    </div>
+                                    <div class="filter-value__item">
+                                        <label class="type-checkbox" for="">1820</label>
+                                    </div>
+                                </li>
+                                <li class="filter-value">
+                                    <div class="filter-value__item">
+                                        <input type="checkbox">
+                                        <label class="type-checkbox" for="">Cell Phone Accessories</label>
+                                    </div>
+                                    <div class="filter-value__item">
+                                        <label class="type-checkbox" for="">465</label>
+                                    </div>
+                                </li>
+                                <li class="filter-value">
+                                    <div class="filter-value__item">
+                                        <input type="checkbox">
+                                        <label class="type-checkbox" for="">Appliances</label>
+                                    </div>
+                                    <div class="filter-value__item">
+                                        <label class="type-checkbox" for="">6556</label>
+                                    </div>
+                                </li>
+                                <li class="filter-value">
+                                    <div class="filter-value__item">
+                                        <input type="checkbox">
+                                        <label class="type-checkbox" for="">Audio</label>
+                                    </div>
+                                    <div class="filter-value__item">
+                                        <label class="type-checkbox" for="">120</label>
+                                    </div>
+                                </li>
+                                <li class="filter-value">
+                                    <div class="filter-value__item">
+                                        <input type="checkbox">
+                                        <label class="type-checkbox" for="">iPhone Accessories</label>
+                                    </div>
+                                    <div class="filter-value__item">
+                                        <label class="type-checkbox" for="">353</label>
+                                    </div>
+                                </li>
+                                <li class="filter-value">
+                                    <div class="filter-value__item">
+                                        <input type="checkbox">
+                                        <label class="type-checkbox" for="">Cameras & Camcorders</label>
+                                    </div>
+                                    <div class="filter-value__item">
+                                        <label class="type-checkbox" for="">45</label>
+                                    </div>
+                                </li>
+                                <li class="filter-value">
+                                    <div class="filter-value__item">
+                                        <input type="checkbox">
+                                        <label class="type-checkbox" for="">iPhone Cases & Clips</label>
+                                    </div>
+                                    <div class="filter-value__item">
+                                        <label class="type-checkbox" for="">456</label>
+                                    </div>
+                                </li>
+                                <li class="filter-value">
+                                    <div class="filter-value__item">
+                                        <input type="checkbox">
+                                        <label class="type-checkbox" for="">TV & Home Theater</label>
+                                    </div>
+                                    <div class="filter-value__item">
+                                        <label class="type-checkbox" for="">55</label>
+                                    </div>
+                                </li>
+                                <li class="filter-value">
+                                    <div class="filter-value__item">
+                                        <input type="checkbox">
+                                        <label class="type-checkbox" for="">Small Kitchen Appliances</label>
+                                    </div>
+                                    <div class="filter-value__item">
+                                        <label class="type-checkbox" for="">10</label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="botom-line"></div>
+                        <div class="filter-item">
+                            <div class="filter-item__title">
+                                <span class="filter-item__title-name">Brand</span>
+                            </div>
+                            <ul class="filter-item__categories">
+                                <li class="filter-value">
+                                    <div class="filter-value__item">
+                                        <input type="checkbox">
+                                        <label class="type-checkbox" for="">Insigne</label>
+                                    </div>
+                                    <div class="filter-value__item">
+                                        <label class="type-checkbox" for="">220</label>
+                                    </div>                               
+                                </li>
+                                <li class="filter-value">
+                                    <div class="filter-value__item">
+                                        <input type="checkbox">
+                                        <label class="type-checkbox" for="">Samsung</label>
+                                    </div>
+                                    <div class="filter-value__item">
+                                        <label class="type-checkbox" for="">120</label>
+                                    </div>                             
+                                </li>
+                                <li class="filter-value">
+                                    <div class="filter-value__item">
+                                        <input type="checkbox">
+                                        <label class="type-checkbox" for="">HP</label>
+                                    </div>
+                                    <div class="filter-value__item">
+                                        <label class="type-checkbox" for="">32</label>
+                                    </div>                              
+                                </li>
+                                <li class="filter-value">
+                                    <div class="filter-value__item">
+                                        <input type="checkbox">
+                                        <label class="type-checkbox" for="">Apple</label>
+                                    </div>
+                                    <div class="filter-value__item">
+                                        <label class="type-checkbox" for="">320</label>
+                                    </div>                              
+                                </li>
+                                <li class="filter-value">
+                                    <div class="filter-value__item">
+                                        <input type="checkbox">
+                                        <label class="type-checkbox" for="">Sony</label>
+                                    </div>
+                                    <div class="filter-value__item">
+                                        <label class="type-checkbox" for="">520</label>
+                                    </div>                               
+                                </li>
+                                <li class="filter-value">
+                                    <div class="filter-value__item">
+                                        <input type="checkbox">
+                                        <label class="type-checkbox" for="">Metra</label>
+                                    </div>
+                                    <div class="filter-value__item">
+                                        <label class="type-checkbox" for="">55</label>
+                                    </div>                             
+                                </li>
+                                <li class="filter-value">
+                                    <div class="filter-value__item">
+                                        <input type="checkbox">
+                                        <label class="type-checkbox" for="">Dyne</label>
+                                    </div>
+                                    <div class="filter-value__item">
+                                        <label class="type-checkbox" for="">120</label>
+                                    </div>                               
+                                </li>
+                                <li class="filter-value">
+                                    <div class="filter-value__item">
+                                        <input type="checkbox">
+                                        <label class="type-checkbox" for="">LG</label>
+                                    </div>
+                                    <div class="filter-value__item">
+                                        <label class="type-checkbox" for="">98</label>
+                                    </div>                              
+                                </li>
+                                <li class="filter-value">
+                                    <div class="filter-value__item">
+                                        <input type="checkbox">
+                                        <label class="type-checkbox" for="">Canon</label>
+                                    </div>
+                                    <div class="filter-value__item">
+                                        <label class="type-checkbox" for="">99</label>
+                                    </div>                               
+                                </li>
+                                <li class="filter-value">
+                                    <div class="filter-value__item">
+                                        <input type="checkbox">
+                                        <label class="type-checkbox" for="">Speck</label>
+                                    </div>
+                                    <div class="filter-value__item">
+                                        <label class="type-checkbox" for="">575</label>
+                                    </div>                                
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="filter-clearbtn">
+                    <p class="btn-name">clear all filtes</p>
+                </div>
+            </div>
+        </aside>
+        <section class="content">
+            <div class="content-result">
+                <span class="content-result__item">
+                    7,618 results found
+                </span>
+                <div class="content-result-btn">
+                    <img src="../../../module-1/img/menu-item.png" alt="">
+                </div>
+            </div>
+            <div class="search-line">
+                <form action="" method="GET">
+                    <input id="searchbox" type="text" placeholder="Search">
+                    <img src="../../../module-1/img/search-item.png" alt="">
+                </form>
+            </div>
+            <div class="catalog-grid">
+                <div class="catalog-grid__item">
+                    <div class="catalog-grid__photo">
+                        <img class="goods" src="../../../module-1/img/card-item-1.png" alt="Apple">
+                    </div>
+                    <div class="catalog-grid__content">
+                        <div class="catalog-grid__content-overall">
+                            <div class="catalog-grid__content-rating">
+                                <span class="rate">4</span>
+                                <img class="rate-star" src="../../../module-1/img/card-star.svg" alt="">
+                            </div>
+                            <div class="catalog-grid__content-price">
+                                <span class="value">$</span><span class="price">399</span>
+                            </div>
+                        </div>
+                        <div class="catalog-grid__content-info">
+                            <p class="info-title">Apple Watch Series 4 GPS</p>
+                            <p class="info-subtitle">Redesigned from scratch and completely revised.</p>
+                        </div>
+                        <div class="catalog-grid__content-control">
+                            <div class="wishlist">
+                                <div class="wishlist__item">
+                                    <img src="../../../module-1/img/card-heart.svg" alt="">
+                                    <a class="wishlist-item" href="#">WISHLIST</a>
+                                </div>
+                            </div>
+                            <div class="add-cart">
+                                <div class="add-cart__item">
+                                    <img src="../../../module-1/img/card-shop.svg" alt="">
+                                    <a class="add-cart-item" href="#">ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog-grid__item">
+                    <div class="catalog-grid__photo">
+                        <img class="goods" src="../../../module-1/img/card-item-2.png" alt="Apple">
+                    </div>
+                    <div class="catalog-grid__content">
+                        <div class="catalog-grid__content-overall">
+                            <div class="catalog-grid__content-rating">
+                                <span class="rate">4</span>
+                                <img class="rate-star" src="../../../module-1/img/card-star.svg" alt="">
+                            </div>
+                            <div class="catalog-grid__content-price">
+                                <span class="value">$</span><span class="price">199</span>
+                            </div>
+                        </div>
+                        <div class="catalog-grid__content-info">
+                            <p class="info-title">Apple Watch Series 4 GPS</p>
+                            <p class="info-subtitle">Redesigned from scratch and completely revised.</p>
+                        </div>
+                        <div class="catalog-grid__content-control">
+                            <div class="wishlist">
+                                <div class="wishlist__item">
+                                    <img src="../../../module-1/img/card-heart.svg" alt="">
+                                    <a class="wishlist-item" href="#">WISHLIST</a>
+                                </div>
+                            </div>
+                            <div class="add-cart">
+                                <div class="add-cart__item">
+                                    <img src="../../../module-1/img/card-shop.svg" alt="">
+                                    <a class="add-cart-item" href="#">ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog-grid__item">
+                    <div class="catalog-grid__photo">
+                        <img class="goods" src="../../../module-1/img/card-item-3.png" alt="Apple">
+                    </div>
+                    <div class="catalog-grid__content">
+                        <div class="catalog-grid__content-overall">
+                            <div class="catalog-grid__content-rating">
+                                <span class="rate">4</span>
+                                <img class="rate-star" src="../../../module-1/img/card-star.svg" alt="">
+                            </div>
+                            <div class="catalog-grid__content-price">
+                                <span class="value">$</span><span class="price">899</span>
+                            </div>
+                        </div>
+                        <div class="catalog-grid__content-info">
+                            <p class="info-title">Apple Watch Series 4 GPS</p>
+                            <p class="info-subtitle">Redesigned from scratch and completely revised.</p>
+                        </div>
+                        <div class="catalog-grid__content-control">
+                            <div class="wishlist">
+                                <div class="wishlist__item">
+                                    <img src="../../../module-1/img/card-heart.svg" alt="">
+                                    <a class="wishlist-item" href="#">WISHLIST</a>
+                                </div>
+                            </div>
+                            <div class="add-cart">
+                                <div class="add-cart__item">
+                                    <img src="../../../module-1/img/card-shop.svg" alt="">
+                                    <a class="add-cart-item" href="#">ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog-grid__item">
+                    <div class="catalog-grid__photo">
+                        <img class="goods" src="../../../module-1/img/card-item-4.png" alt="Apple">
+                    </div>
+                    <div class="catalog-grid__content">
+                        <div class="catalog-grid__content-overall">
+                            <div class="catalog-grid__content-rating">
+                                <span class="rate">4</span>
+                                <img class="rate-star" src="../../../module-1/img/card-star.svg" alt="">
+                            </div>
+                            <div class="catalog-grid__content-price">
+                                <span class="value">$</span><span class="price">459</span>
+                            </div>
+                        </div>
+                        <div class="catalog-grid__content-info">
+                            <p class="info-title">Apple Watch Series 4 GPS</p>
+                            <p class="info-subtitle">Redesigned from scratch and completely revised.</p>
+                        </div>
+                        <div class="catalog-grid__content-control">
+                            <div class="wishlist">
+                                <div class="wishlist__item">
+                                    <img src="../../../module-1/img/card-heart.svg" alt="">
+                                    <a class="wishlist-item" href="#">WISHLIST</a>
+                                </div>
+                            </div>
+                            <div class="add-cart">
+                                <div class="add-cart__item">
+                                    <img src="../../../module-1/img/card-shop.svg" alt="">
+                                    <a class="add-cart-item" href="#">ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog-grid__item">
+                    <div class="catalog-grid__photo">
+                        <img class="goods" src="../../../module-1/img/card-item-5.png" alt="Apple">
+                    </div>
+                    <div class="catalog-grid__content">
+                        <div class="catalog-grid__content-overall">
+                            <div class="catalog-grid__content-rating">
+                                <span class="rate">4</span>
+                                <img class="rate-star" src="../../../module-1/img/card-star.svg" alt="">
+                            </div>
+                            <div class="catalog-grid__content-price">
+                                <span class="value">$</span><span class="price">2499</span>
+                            </div>
+                        </div>
+                        <div class="catalog-grid__content-info">
+                            <p class="info-title">Apple Watch Series 4 GPS</p>
+                            <p class="info-subtitle">Redesigned from scratch and completely revised.</p>
+                        </div>
+                        <div class="catalog-grid__content-control">
+                            <div class="wishlist">
+                                <div class="wishlist__item">
+                                    <img src="../../../module-1/img/card-heart.svg" alt="">
+                                    <a class="wishlist-item" href="#">WISHLIST</a>
+                                </div>
+                            </div>
+                            <div class="add-cart">
+                                <div class="add-cart__item">
+                                    <img src="../../../module-1/img/card-shop.svg" alt="">
+                                    <a class="add-cart-item" href="#">ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog-grid__item">
+                    <div class="catalog-grid__photo">
+                        <img class="goods" src="../../../module-1/img/card-item-6.png" alt="Apple">
+                    </div>
+                    <div class="catalog-grid__content">
+                        <div class="catalog-grid__content-overall">
+                            <div class="catalog-grid__content-rating">
+                                <span class="rate">4</span>
+                                <img class="rate-star" src="../../../module-1/img/card-star.svg" alt="">
+                            </div>
+                            <div class="catalog-grid__content-price">
+                                <span class="value">$</span><span class="price">899</span>
+                            </div>
+                        </div>
+                        <div class="catalog-grid__content-info">
+                            <p class="info-title">Apple Watch Series 4 GPS</p>
+                            <p class="info-subtitle">Redesigned from scratch and completely revised.</p>
+                        </div>
+                        <div class="catalog-grid__content-control">
+                            <div class="wishlist">
+                                <div class="wishlist__item">
+                                    <img src="../../../module-1/img/card-heart.svg" alt="">
+                                    <a class="wishlist-item" href="#">WISHLIST</a>
+                                </div>
+                            </div>
+                            <div class="add-cart">
+                                <div class="add-cart__item">
+                                    <img src="../../../module-1/img/card-shop.svg" alt="">
+                                    <a class="add-cart-item" href="#">ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog-grid__item">
+                    <div class="catalog-grid__photo">
+                        <img class="goods" src="../../../module-1/img/card-item-7.png" alt="Apple">
+                    </div>
+                    <div class="catalog-grid__content">
+                        <div class="catalog-grid__content-overall">
+                            <div class="catalog-grid__content-rating">
+                                <span class="rate">4</span>
+                                <img class="rate-star" src="../../../module-1/img/card-star.svg" alt="">
+                            </div>
+                            <div class="catalog-grid__content-price">
+                                <span class="value">$</span><span class="price">399</span>
+                            </div>
+                        </div>
+                        <div class="catalog-grid__content-info">
+                            <p class="info-title">Apple Watch Series 4 GPS</p>
+                            <p class="info-subtitle">Redesigned from scratch and completely revised.</p>
+                        </div>
+                        <div class="catalog-grid__content-control">
+                            <div class="wishlist">
+                                <div class="wishlist__item">
+                                    <img src="../../../module-1/img/card-heart.svg" alt="">
+                                    <a class="wishlist-item" href="#">WISHLIST</a>
+                                </div>
+                            </div>
+                            <div class="add-cart">
+                                <div class="add-cart__item">
+                                    <img src="../../../module-1/img/card-shop.svg" alt="">
+                                    <a class="add-cart-item" href="#">ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog-grid__item">
+                    <div class="catalog-grid__photo">
+                        <img class="goods" src="../../../module-1/img/card-item-8.png" alt="Apple">
+                    </div>
+                    <div class="catalog-grid__content">
+                        <div class="catalog-grid__content-overall">
+                            <div class="catalog-grid__content-rating">
+                                <span class="rate">4</span>
+                                <img class="rate-star" src="../../../module-1/img/card-star.svg" alt="">
+                            </div>
+                            <div class="catalog-grid__content-price">
+                                <span class="value">$</span><span class="price">2499</span>
+                            </div>
+                        </div>
+                        <div class="catalog-grid__content-info">
+                            <p class="info-title">Apple Watch Series 4 GPS</p>
+                            <p class="info-subtitle">Redesigned from scratch and completely revised.</p>
+                        </div>
+                        <div class="catalog-grid__content-control">
+                            <div class="wishlist">
+                                <div class="wishlist__item">
+                                    <img src="../../../module-1/img/card-heart.svg" alt="">
+                                    <a class="wishlist-item" href="#">WISHLIST</a>
+                                </div>
+                            </div>
+                            <div class="add-cart">
+                                <div class="add-cart__item">
+                                    <img src="../../../module-1/img/card-shop.svg" alt="">
+                                    <a class="add-cart-item" href="#">ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog-grid__item">
+                    <div class="catalog-grid__photo">
+                        <img class="goods" src="../../../module-1/img/card-item-9.png" alt="Apple">
+                    </div>
+                    <div class="catalog-grid__content">
+                        <div class="catalog-grid__content-overall">
+                            <div class="catalog-grid__content-rating">
+                                <span class="rate">4</span>
+                                <img class="rate-star" src="../../../module-1/img/card-star.svg" alt="">
+                            </div>
+                            <div class="catalog-grid__content-price">
+                                <span class="value">$</span><span class="price">99</span>
+                            </div>
+                        </div>
+                        <div class="catalog-grid__content-info">
+                            <p class="info-title">Apple Watch Series 4 GPS</p>
+                            <p class="info-subtitle">Redesigned from scratch and completely revised.</p>
+                        </div>
+                        <div class="catalog-grid__content-control">
+                            <div class="wishlist">
+                                <div class="wishlist__item">
+                                    <img src="./img/card-heart.svg" alt="">
+                                    <a class="wishlist-item" href="#">WISHLIST</a>
+                                </div>
+                            </div>
+                            <div class="add-cart">
+                                <div class="add-cart__item">
+                                    <img src="./img/card-shop.svg" alt="">
+                                    <a class="add-cart-item" href="#">ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="pagination">
+        <div class="pagination-arrow">
+            <a href="#">&laquo;</a>
+        </div>
+        <div class="pagination-btn">
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a class="active" href="#">6</a>
+            <a href="#">7</a>
+            <a href="#">8</a>
+            <a href="#">9</a>
+            <a href="#">10</a>
+          </div>
+          <div class="pagination-arrow">
+            <a href="#">&raquo;</a>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

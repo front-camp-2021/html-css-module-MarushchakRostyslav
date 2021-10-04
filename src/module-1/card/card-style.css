@@ -1,0 +1,244 @@
+/*-------------------------------- CSS RESET ---------------------*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+html {
+  height: 100%;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  text-decoration: none;
+}
+/*-------------------------------- CSS RESET ---------------------*/
+body {
+    font-family: "Montserrat", sans-serif;
+    background: #f9f9f9;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.0778245);
+  }
+
+/*--------------------------------*/
+.catalog-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 15px;
+  }
+  .catalog-grid__item {
+    background: #ffffff;
+    box-shadow: 0px 2px 8px rgb(0 0 0 / 14%);
+    border-radius: 8px;
+    margin: 0 28px 28px 0;
+    width: 400px;
+  }
+  .catalog-grid__photo {
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+  }
+  .goods {
+    max-height: 100%;
+  }
+  .catalog-grid__content-overall {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    padding: 0 24px;
+  }
+  .catalog-grid__content-info {
+    margin-bottom: 22px;
+    padding: 0 24px;
+  }
+  .catalog-grid__content-info p {
+    color: #2c2c2c;
+  }
+  .info-title {
+    margin-bottom: 5px;
+    font-weight: 400;
+    line-height: 119%;
+  }
+  .info-subtitle {
+    font-size: 12px;
+  }
+  .catalog-grid__content-rating {
+    background: #6f64f8;
+    border-radius: 3px;
+    width: 64px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .catalog-grid__content-rating .rate {
+    color: #fff;
+  }
+  .catalog-grid__content-price {
+    color: #2c2c2c;
+    font-size: 18px;
+  }
+  .catalog-grid__content-control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    height: 45px;
+  }
+  .wishlist {
+    background-color: #ededed;
+    border-radius: 0px 0px 0px 8px;
+    width: 100%;
+  }
+  .wishlist,
+  .add-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .wishlist__item,
+  .add-cart__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .wishlist a {
+    color: #2c2c2c;
+  }
+  .add-cart {
+    background: #6f64f8;
+    border-radius: 0px 0px 8px 0px;
+    width: 100%;
+  }
+  .add-cart a {
+    color: #fff;
+  }
+  .add-cart__item img,
+  .wishlist__item img {
+    margin-right: 8px;
+  }

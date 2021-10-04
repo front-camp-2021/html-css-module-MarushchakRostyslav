@@ -1,0 +1,490 @@
+/*-------------------------------- CSS RESET ---------------------*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+html {
+  height: 100%;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  text-decoration: none;
+}
+/*-------------------------------- CSS RESET ---------------------*/
+
+/*-------------------------------- HEADER STYLE ---------------------*/
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #f9f9f9;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.0778245);
+}
+.header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 27px 15px 36px 15px;
+}
+.header-text {
+  padding-left: 22px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56%;
+  color: #7e72f2;
+}
+
+/*-------------------------------- HEADER STYLE ---------------------*/
+
+/*-------------------------------- breadcrumbs STYLE ---------------------*/
+ul.breadcrumb-road {
+  padding: 10px 16px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+ul.breadcrumb-road li {
+  display: inline;
+  font-size: 14px;
+  line-height: 121%;
+  color: #2c2c2c;
+}
+ul.breadcrumb-road li + li:before {
+  padding: 0 12px 0 12px;
+  content: url(./img/breadcrumbs-item-2.png);
+}
+ul.breadcrumb-road li a {
+  color: #7e72f2;
+  text-decoration: none;
+}
+ul.breadcrumb-road li a:hover {
+  color: #414cee;
+  text-decoration: none;
+}
+/*-------------------------------- breadcrumbs STYLE ---------------------*/
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 28px 10px 16px;
+}
+
+/*-------------------------------- MAIN STYLE ---------------------*/
+
+.layout_with_sidebar {
+  display: flex;
+}
+/*-------------------------------- SIDEBAR STYLE ---------------------*/
+.sidebar {
+  margin: 15px 30px 0px 15px;
+}
+.sidebar-close {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 13px;
+}
+.sidebar-close__btn {
+  width: 46px;
+  height: 40px;
+  border: 1px solid #fff;
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgb(0 0 0 / 14%);
+  border-radius: 8px;
+  position: relative;
+  transform: rotate(-179.89deg);
+  cursor: pointer;
+}
+.sidebar-close__btn img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.botom-line {
+  border: 1px solid #d6d6d6;
+  margin: 30px 0;
+}
+.filter {
+  position: sticky;
+  top: 0;
+}
+.filter-value {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.filter-value__item label,
+.filter-value__radio label {
+  margin-left: 12px;
+}
+.filter-container {
+  padding: 20px 140px 20px 43px;
+  color: #2c2c2c;
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgb(0 0 0 / 14%);
+  border-radius: 8px;
+}
+.filter-container input {
+  background: #6f64f8;
+  margin: 0;
+  border: 0;
+  width: 17px;
+  height: 16px;
+}
+.filter-item__title {
+  margin-bottom: 25px;
+}
+.filter-item__title-name {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 122%;
+}
+.filter-item__categories {
+  font-weight: 300;
+  line-height: 200%;
+}
+.filter-clearbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6f64f8;
+  width: 560px;
+  height: 56px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.btn-name {
+  color: #fff;
+  margin: 17px 180px;
+  text-transform: uppercase;
+}
+/*-------------------------------- SIDEBAR STYLE ---------------------*/
+
+/*--------------------------CATALOG GRID and SEARCH STYLE---------------------------*/
+.content {
+  margin-top: 15px;
+}
+.content-result {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 15px;
+}
+.search-line form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.search-line form input {
+  width: 100%;
+  background: #ffffff;
+  border-radius: 8px;
+  font-weight: 300;
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+  padding: 17px 0 17px 32px;
+  border: none;
+  outline: none;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+}
+.search-line form img {
+  position: absolute;
+  right: 24px;
+  cursor: pointer;
+}
+.search-line form input::placeholder {
+  line-height: 118%;
+  color: #999999;
+}
+.content-result,
+.search-line {
+  margin: 0 35px 0 7px;
+}
+.sidebar-close__title,
+.content-result__item {
+  font-size: 18px;
+  line-height: 117%;
+  color: #2c2c2c;
+}
+.content-result-btn {
+  width: 46px;
+  height: 40px;
+  background: #6f64f8;
+  box-shadow: 0px 2px 8px rgb(0 0 0 / 14%);
+  border-radius: 8px;
+  position: relative;
+  cursor: pointer;
+}
+.content-result-btn img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.catalog-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 15px;
+}
+.catalog-grid__item {
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgb(0 0 0 / 14%);
+  border-radius: 8px;
+  margin: 0 28px 28px 0;
+  width: 400px;
+}
+.catalog-grid__photo {
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+.goods {
+  max-height: 100%;
+}
+.catalog-grid__content-overall {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  padding: 0 24px;
+}
+.catalog-grid__content-info {
+  margin-bottom: 22px;
+  padding: 0 24px;
+}
+.catalog-grid__content-info p {
+  color: #2c2c2c;
+}
+.info-title {
+  margin-bottom: 5px;
+  font-weight: 400;
+  line-height: 119%;
+}
+.info-subtitle {
+  font-size: 12px;
+}
+.catalog-grid__content-rating {
+  background: #6f64f8;
+  border-radius: 3px;
+  width: 64px;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.catalog-grid__content-rating .rate {
+  color: #fff;
+}
+.catalog-grid__content-price {
+  color: #2c2c2c;
+  font-size: 18px;
+}
+.catalog-grid__content-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  height: 45px;
+}
+.wishlist {
+  background-color: #ededed;
+  border-radius: 0px 0px 0px 8px;
+  width: 100%;
+}
+.wishlist,
+.add-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.wishlist__item,
+.add-cart__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wishlist a {
+  color: #2c2c2c;
+}
+.add-cart {
+  background: #6f64f8;
+  border-radius: 0px 0px 8px 0px;
+  width: 100%;
+}
+.add-cart a {
+  color: #fff;
+}
+.add-cart__item img,
+.wishlist__item img {
+  margin-right: 8px;
+}
+/*--------------------------CATALOG GRID and SEARCH STYLE---------------------------*/
+
+/*-------------------------PAGINATION STYLE---------------------------*/
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 26px;
+}
+.pagination-btn {
+  background: #ededed;
+  border-radius: 20px;
+  width: 357px;
+  height: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 17px;
+}
+.pagination-btn a.active {
+  background: #6f64f8;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.pagination-arrow {
+  background: #ededed;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*-------------------------PAGINATION STYLE---------------------------*/
+
+/*-------------------------------- MAIN STYLE ---------------------*/
